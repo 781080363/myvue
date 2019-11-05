@@ -6,11 +6,36 @@
     <meta name="renderer" content="webkit">
     <meta name="viewport"content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <title>Title</title>
-    <title>Document</title>
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="bower_components/swiper/package/css/swiper.css" rel="stylesheet">
     <style>
         [v-cloak]{
             display: none;
+        }
+        .swiper-container-free-mode>.swiper-wrapper {
+            -webkit-transition-timing-function: linear;
+            -moz-transition-timing-function: linear;
+            -ms-transition-timing-function: linear;
+            -o-transition-timing-function: linear;
+            transition-timing-function: linear;
+            margin: 0 auto;
+            opacity: 0.7;
+        }
+        .swiper-pagination-bullet{
+            width: 0.6rem;
+            height: 0.6rem;
+            background-color:#ffffff ;
+        }
+        .swiper-pagination-bullet-active{
+            width: 0.6rem;
+            height: 0.6rem;
+            background-color:#ffffff ;
+        }
+        :root {
+        --swiper-theme-color: #ffffff;
+        } 
+        .swiper1{
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         }
     </style>
 </head>
@@ -18,7 +43,15 @@
     <div id="home" v-cloak>
         <div id="header">
             <div id="up">
-
+                <img id="close" src="../Designdraft/img/homepage/headerclose.jpg" alt="">
+                <img id="close2" src="../Designdraft/img/homepage/headerclose2.jpg" alt="">
+                <div id="add">
+                    <p id="app">中国移动APP</p>
+                    <p id="ad">随时随地 随心随行</p>
+                </div>
+                <div id="open">
+                    立即打开
+                </div>
             </div>
             <div id="btom">
                 <img id="logo" src="../Designdraft/img/homepage/header1.jpg" alt="">
@@ -32,19 +65,108 @@
                 </div>
             </div>
         </div>
-        <div id="">
-
+        <div id="sign">
+            <span>
+                欢迎来到中国移动掌上营业厅
+                <a href="#">去登陆></a>
+            </span>
         </div>
+        <div id="notice">
+            <div id="tips">
+                <img src="../Designdraft/img/homepage/notice.jpg" alt="">公告：
+            </div>
+            <div class="swiper-container swiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">中国移动掌上营业厅服务协议</div>
+                    <div class="swiper-slide">中国移动掌上营业厅10月30日9：00至17...</div>
+                    <div class="swiper-slide">关于中国移动取消流量“漫游”费的公告</div>
+                    <div class="swiper-slide">“扫黄打非”举报公告</div>
+                    <div class="swiper-slide">个人信息保护政策</div>
+                    <div class="swiper-slide">中央第六巡视组向中国移动通信集团有限公司党组</div>
+                    <div class="swiper-slide">中国移动掌上营业厅10月29日9：00至17</div>
+                    <div class="swiper-slide">中央第六巡视组巡视中国移动通信集团有限公司党...</div>
+                </div>
+            </div>
+            <div id="banner">
+                <div class="swiper-container swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="../Designdraft/img/homepage/banner1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../Designdraft/img/homepage/banner2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../Designdraft/img/homepage/banner3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../Designdraft/img/homepage/banner4.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../Designdraft/img/homepage/banner5.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <ul id="entrance">
+            <li><img src="../Designdraft/img/homepage/find1.jpg" alt=""><p>花费充值</p></li>
+            <li><img src="../Designdraft/img/homepage/find2.jpg" alt=""><p>流量充值</p></li>
+            <li><img src="../Designdraft/img/homepage/find3.jpg" alt=""><p>账单查询</p></li>
+            <li><img src="../Designdraft/img/homepage/find4.jpg" alt=""><p>套餐余量</p></li>
+            <li><img src="../Designdraft/img/homepage/find5.jpg" alt=""><p>已定业务</p></li>
+            <li><img src="../Designdraft/img/homepage/find6.jpg" alt=""><p>国漫专区</p></li>
+            <li><img src="../Designdraft/img/homepage/find7.jpg" alt=""><p>5G专区</p></li>
+            <li><img src="../Designdraft/img/homepage/find8.jpg" alt=""><p>买手机</p></li>
+            <li><img src="../Designdraft/img/homepage/find9.jpg" alt=""><p>办业务</p></li>
+            <li><img src="../Designdraft/img/homepage/find10.jpg" alt=""><p>办号卡</p></li>
+        </ul>
+        <div id="ad">
+            <img src="../Designdraft/img/homepage/ad.jpg" alt="">
+        </div>
+        <h2>
+            <span><img src="../Designdraft/img/homepage/titlea1.jpg" alt="">全家享</span>
+        </h2>
+        <ul class="other">
+            <li>
+                <p>宽带新装</p>
+                <p>家居必备</p>
+                <img class="titlea" src="../Designdraft/img/homepage/titlea1(1).jpg" alt="">
+            </li>
+            <li>
+                <p>全国亲情网</p>
+                <p>成员多至19人</p>
+                <img class="titlea" src="../Designdraft/img/homepage/titlea1(2).jpg" alt="">
+            </li>
+        </ul>
     </div>
 </body>
 </html>
 <script src="node_modules/vue/dist/vue.js"></script>
+<script src="bower_components/swiper/package/js/swiper.js"></script>
 <script>
     (function(){
         new Vue({
             el:"#home",
             data:{
+                
             }
         })
+        let mySwiper = new Swiper ('.swiper1', {
+            loop: true,
+            freeMode:true,
+            autoplay:true,
+            autoplay: {
+                delay:2000,
+                disableOnInteraction: false
+
+            },
+            speed:8000,
+        })
+        var newswiper = new Swiper('.swiper2',{
+            loop: true,
+            autoplay:true,
+            autoplay: {
+                delay:2000,
+                disableOnInteraction: false
+            },
+            speed:500,
+            pagination:{
+                el: '.swiper-pagination',
+                clickable: true,
+                clickableClass : 'my-pagination-clickable'
+            }
+        }) 
     })()
 </script>
