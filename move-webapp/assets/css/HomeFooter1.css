@@ -1,0 +1,11 @@
+#footer{
+    font-size: 0.512rem;
+}
+#footer p{
+    display: block;
+    text-align: center;
+    line-height: 1.5rem;
+}
+#footer a{
+    color: black;
+}

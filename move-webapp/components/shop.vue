@@ -97,7 +97,7 @@
                     </ul>
                 </li>
             </ul>
-            <h2>
+            <!-- <h2>
                 <span style="color:#117dea;"><img src="../assets/img/homepage/titlea5.jpg" alt="">特色专区</span>
             </h2>
             <ul class="other other5">
@@ -187,10 +187,10 @@
                     <img class="" src="../assets/img/homepage/titlea6(6).jpg" alt="">
                     <div>
                         <p class="small">流量小时套餐</p>
-                        <p>优惠有效期4小时</p>
-                    </div>
+                        <p>优惠有效期4小时</p> -->
+                    <!-- </div>
                 </li>   
-            </ul>
+            </ul> -->
         </div>
         <home-footer-1></home-footer-1>
         <home-footer></home-footer>
@@ -214,5 +214,5 @@
     }
 </script>
 <style>
-   @import"../assets/css/home.css";
+   @import"../assets/css/Shop.css";
 </style>

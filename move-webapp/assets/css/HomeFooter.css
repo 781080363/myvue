@@ -1,0 +1,18 @@
+#Navigation{
+    display: flex;
+    font-size: 0.512rem;
+    background-color: #fff;
+}
+#Navigation li{
+    width: 25%;
+    text-align: center;
+    line-height: 0.512rem;
+}
+#Navigation p{
+    padding-bottom: 0.192rem;
+}
+#Navigation img{
+    width: 1.06rem;
+    height: 1.06rem;
+    padding-top:0.14rem ;
+}
