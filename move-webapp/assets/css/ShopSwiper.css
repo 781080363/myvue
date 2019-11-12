@@ -1,4 +1,4 @@
-#notice{
+#notice1{
     width: 100%;
     height:7.04rem ;
     line-height: 1.06rem;
@@ -6,21 +6,34 @@
     color: #fff;
     background-color: #fe1600;
 }
-#tips{
+#tips2{
+    float: right;
+}
+#tips2 img{
+    width: 0.67rem;
+    height: 0.67rem;
+    vertical-align: middle;
+}
+#tips1{
     float: left;
     padding-left: 0.384rem;
 }
-#tips img{
-    width: 0.57rem;
+#tips1 img{
+    width: 0.7rem;
     height: 0.85rem;
     padding-right:0.1rem;
     vertical-align: middle;
 }
-#banner{
+#banner1{
     width: 100%;
     overflow: hidden;
 }
-#banner img{
+#banner1 img{
     height: 5.98rem;
     width: 100%;
 }
+.swiper11{
+    float: left;
+    width: 88%;
+    height: 1.06rem;
+}    

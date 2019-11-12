@@ -22,6 +22,6 @@ export default {
     name:"HomeList"
 }
 </script>
-<style>
+<style >
     @import"../../assets/css/HomeList.css";
 </style>

@@ -23,136 +23,118 @@ html,body{
 #header{
     height:3.84rem;
 }
-h2{
+#sbd h2{
+    position: relative;
     width: 100%;
-    height: 1.92rem;
+    height: 1.7rem;
     font-size: 0.72rem;
     font-weight: 500;
-    color: #85cf22;
     text-align: center;
-    line-height: 1.92rem;
+    line-height: 1.7rem;
 }
-h2 img{
-    width: 0.71rem;
-    height: 0.71rem;
-    margin: 0 0.2rem;
-}
-.other{
-    display: flex;
-    font-size: 0.512rem;
-    background-color: #fff;
-    color:#999999 ;
-}
-.other p{
-    padding:0 0 0.45rem 0.45rem;
-}
-.other li{
-    width: 49.8%;
-    border-right: 0.03rem solid #eeeeee;
-    border-bottom: 0.03rem solid #eeeeee;
-}
-.small{
-    font-size: 0.64rem;
-    color: #333333;
-}
-.titlea{
-    float: right;
-    padding-right:0.45rem ;
-    width: 2.56rem;
-    height: 2.56rem;
-    margin-bottom:0.45rem ;
-}
-.other1{
-    display: flex;
-    flex-wrap:wrap ;
-    text-align: center;
-}
-.other1 img{
-    padding-top: 0.53rem;
-}
-.pink{
-    font-size: 0.64rem;
-    color: #e40077;
-}
-.blac{
-    font-size: 0.512rem;
-    color:black ;
-    padding-bottom: 0.53rem;
-}
-.pho{
-    width: 5.97rem;
-    height: 4.90rem;
-}
-.other2 div{
-    float: left;
-    padding:0.96rem 0 1.13rem 0;
-}
-.other2 img{
-    width: 1.92rem;
-    height: 1.92rem;
-    margin: 0.85rem 0 0 0.53rem;
-}
-#how{
-    width: 100%;
-    text-align: center;
-    background-color: #fff;
-    font-size: 0.72rem;
-    line-height: 1.92rem;
-}
-#txt{
-    text-align: center;
-}
-.big{
-    display: block;
-    width: 3.84rem;
-    height: 3.84rem;
-    margin: 0.64rem auto 0;
-}
-.tit{
-    width: 1.92rem;
-    height: 1.92rem;
-    margin: 0.64rem 0.53rem 0 0;
-}
-#trouble{
+#sbd .full img{
     width: 100%;
     height: 100%;
 }
-#trouble li{
+#sbd .grya1{
+    width:50%;
+}
+#sbd .other4 li{
+    width: 50%;
+}
+#sbd span{
+    position: absolute;
+    display: block;
+    top: 0rem;
+    left: 1rem;
+}
+#sbd .other{
+    display: flex;
+    font-size: 0.88rem;
+    background-color: #fff;
+}
+#sbd .other1{
+    display: flex;
+    flex-wrap:wrap ;
+}
+#sbd .other1 li{
+    width: 50%;
+    height: 50%;
+}
+#sbd .name{
+    font-size: 0.4rem;
+    color: gray;
+}
+#sbd .pink{
+    font-size: 0.7rem;
+    color: #e40077;
+}
+#sbd .blac{
+    font-size: 0.7rem;
+    color:black ;
+    padding-top: 0.33rem;
+}
+#sbd .other1 img{
+    width: 3.413rem;
+    height:3.413rem;
+    padding-top: 0.53rem;
+    float:right;
+}
+#sbd .other1 p{
+    padding-left: 0.3rem;
+}
+#sbd .pho{
+    width: 5.97rem;
+    height: 4.90rem;
+}
+#sbd .other2 img{
+    width: 100%;
+    height: 100%;
+}
+#sbd .other2 li{
+    width: 50%;
+    height: 100%;
+}
+#sbd .other3 p{
+    padding-left: 0.4rem;
+}
+#sbd .other3 .big{
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+}
+#sbd .other3 .small{
+    font-size: 0.5rem;
+    line-height: 0.6rem;
+    color: gray;
+}
+#sbd .other3 li{
+    width: 50%;
+    height: 100%;
+}
+#sbd .titlea{
+    float: right;
+    padding-right:0.45rem ;
+    width: 3.4rem;
+    height: 3.4rem;
+    margin-bottom:0.45rem ;
+}
+#sbd #trouble{
+    width: 100%;
+    height: 100%;
+}
+#sbd #trouble li{
     width: 100%;
     height: 50%;
 }
-#trouble div{
-    float: left;
-    padding: 0.5rem 0 0 0.42rem;
-}
-.other5{
-    display: flex;
-    flex-wrap: wrap;
-}
-.other5 div{
-    float: left;
-    padding:0.96rem 0 1.13rem 0;
-}
-.other5 img{
-    float: right;
-    width: 1.92rem;
-    height: 1.92rem;
-    margin: 0.95rem 0.53rem 0.45rem 0;
-    border-radius: 50%;
-}
-.other6{
-    display: flex;
-    flex-wrap: wrap;
-}
-.other6 li{
-    width: 33.13%;
-    text-align: center;
-}
-.other6 img{
+#sbd .other5 img{
     display: block;
-    width: 3.84rem;
-    height: 3.84rem;
-    margin: 0.53rem auto 0;
+    float: right;
+    width: 5.54rem;
+    height: 5.54rem;
+}
+#sbd .other5 li{
+    width: 50%;
+    height: 100%;
 }
 [v-cloak]{
     display: none;

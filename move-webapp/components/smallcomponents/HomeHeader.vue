@@ -24,6 +24,6 @@
         name:"HomeHeader"
     }
 </script>
-<style>
+<style >
     @import"../../assets/css/HomeHeader.css";
 </style>

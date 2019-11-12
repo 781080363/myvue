@@ -4,7 +4,7 @@
         <home-header></home-header>
         <home-swiper></home-swiper>
         <home-list></home-list>
-        <div>
+        <div id="sbds">
             <h2>
                 <span><img src="../assets/img/homepage/titlea1.jpg" alt="">全家享</span>
             </h2>
@@ -197,19 +197,19 @@
     </div>
 </template>
 <script>
+    import HomeFooter  from "./smallcomponents/HomeFooter"    
     import HomeFooter1 from "./smallcomponents/HomeFooter1"
     import HomeList    from "./smallcomponents/HomeList"
     import HomeHeader  from "./smallcomponents/HomeHeader"
     import HomeSwiper  from "./smallcomponents/HomeSwiper"
-    import HomeFooter  from "./smallcomponents/HomeFooter"
     export default {
         name:"home",
         components:{
-            HomeFooter,
             HomeSwiper,
             HomeHeader,
             HomeList,
-            HomeFooter1
+            HomeFooter1,
+            HomeFooter
         }   
     }
 </script>

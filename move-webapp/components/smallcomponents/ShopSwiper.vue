@@ -1,28 +1,24 @@
 <template>
-    <div id="notice" style="color:yellow">
-            <div id="tips">
-                <img src="../../assets/img/homepage/notice.jpg" alt="">公告：
+    <div id="notice1">
+            <div id="tips1">
+                <img src="../../assets/img/shoppage/bannernotice.jpg" alt="">
             </div>
-            <div class="swiper-container swiper1">
+            <div class="swiper-container swiper11">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">中国移动掌上营业厅服务协议</div>
-                    <div class="swiper-slide">中国移动掌上营业厅10月30日9：00至17...</div>
+                    <div class="swiper-slide">关于中国移动官方服务热线号码的公告</div>
                     <div class="swiper-slide">关于中国移动取消流量“漫游”费的公告</div>
-                    <div class="swiper-slide">“扫黄打非”举报公告</div>
-                    <div class="swiper-slide">个人信息保护政策</div>
-                    <div class="swiper-slide">中央第六巡视组向中国移动通信集团有限公司党组</div>
-                    <div class="swiper-slide">中国移动掌上营业厅10月29日9：00至17</div>
-                    <div class="swiper-slide">中央第六巡视组巡视中国移动通信集团有限公司党...</div>
                 </div>
             </div>
-            <div id="banner">
-                <div class="swiper-container swiper2">
+            <div id="tips2">
+                <img src="../../assets/img/shoppage/bannerclose.jpg" alt="">
+            </div>
+            <div id="banner1">
+                <div class="swiper-container swiper21">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="../../assets/img/homepage/banner1.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="../../assets/img/homepage/banner2.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="../../assets/img/homepage/banner3.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="../../assets/img/homepage/banner4.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="../../assets/img/homepage/banner5.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../../assets/img/shoppage/banner1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../../assets/img/shoppage/banner2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../../assets/img/shoppage/banner3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../../assets/img/shoppage/banner4.jpg" alt=""></div>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
@@ -33,9 +29,9 @@
 import swiper from "../../../bower_components/swiper/package/css/swiper.css"
 import Swiper from "swiper" 
 export default {
-    name:"HomeSwiper",
+    name:"ShopSwiper",
     mounted(){
-        let mySwiper = new Swiper ('.swiper1', {
+        let mySwiper = new Swiper ('.swiper11', {
             loop: true,
             freeMode:true,
             autoplay:true,
@@ -46,7 +42,7 @@ export default {
             },
             speed:8000,
         })
-        var newswiper = new Swiper('.swiper2',{
+        var newswiper = new Swiper('.swiper21',{
             loop: true,
             autoplay:true,
             autoplay: {

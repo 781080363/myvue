@@ -63,6 +63,6 @@ export default {
     }
 }
 </script>
-<style>
+<style >
     @import"../../assets/css/HomeSwiper.css";
 </style>

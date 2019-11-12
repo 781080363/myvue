@@ -1,11 +1,11 @@
-#footer{
+#footer1{
     font-size: 0.512rem;
 }
-#footer p{
+#footer1 p{
     display: block;
     text-align: center;
     line-height: 1.5rem;
 }
-#footer a{
+#footer1 a{
     color: black;
 }

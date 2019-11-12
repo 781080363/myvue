@@ -1,20 +1,20 @@
-#entrance{
+#entrance1{
     display: flex;
     height: 6.95rem;
     flex-wrap: wrap;
 }
-#entrance li{
-    width: 20%;
+#entrance1 li{
+    width: 25%;
     height: 50%;
     font-size: 0.46rem;
     text-align: center;
 }
-#entrance img{
+#entrance1 img{
     width: 1.7rem;
     height: 1.7rem;
     margin-top: 0.64rem;
 }
-#ad img{
+#ad1 img{
     width: 100%;
     height: 2.88rem;
 }
