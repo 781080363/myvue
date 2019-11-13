@@ -1,0 +1,29 @@
+#web{
+    height: 6rem;
+    font-size: 0.512rem;
+    line-height: 1.3rem;
+    text-align: center;
+    background-color:#f7f7f7;
+}
+#comef{
+    position: fixed;
+    display: flex;
+    font-size: 0.512rem;
+    background-color: #fff;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#comef li{
+    width: 25%;
+    text-align: center;
+    line-height: 0.512rem;
+}
+#comef p{
+    padding-bottom: 0.192rem;
+}
+#comef img{
+    width: 1.06rem;
+    height: 1.06rem;
+    padding-top:0.14rem ;
+} 

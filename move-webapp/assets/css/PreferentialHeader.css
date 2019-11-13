@@ -1,0 +1,32 @@
+#cheap{
+    position: relative;
+    width:100%;
+    height: 1.92rem;
+    line-height: 1.92rem;
+    font-size: 0.768rem;
+    text-align: center;
+    background:#f7f7f7;
+}
+#cheap img{
+    position: absolute;
+    width: 0.40rem;
+    height: 0.72rem;
+    left: 0.42rem;
+    top: 0.59rem;
+}
+#come{
+    float: left;
+    width: 100%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 0.51rem;
+}
+#come p{
+    float: left;
+    padding-left: 0.598rem;
+}
+#come a{
+    color: #0085d0;
+    font-size: 0.427rem;
+    padding-left: 0.38rem;
+}

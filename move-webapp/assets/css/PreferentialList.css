@@ -1,0 +1,12 @@
+#cheaps{
+    width: 100%;
+    font-size: 0.54rem;
+    line-height: 0.84rem;
+}
+#cheaps li{
+
+    padding: 0.42rem;
+}
+#cheaps img{
+    width: 100%;
+}
