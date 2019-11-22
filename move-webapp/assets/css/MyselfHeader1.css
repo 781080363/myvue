@@ -1,0 +1,86 @@
+#header{
+    height:3.84rem;
+}
+#oheader{
+    width: 100%;
+    height: 7.93rem;
+    background: linear-gradient(to right,#416fdf,#4ca1fd);
+}
+#myheader{
+    display: flex;
+    height: 1.7rem;
+    font-size:0.75rem;
+    line-height: 1.7rem;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+#myheader p{
+    margin-left: 1.5rem;
+}
+#twopho img{
+    float: left;
+    margin: 0.2rem;
+}
+#pho{
+    display: flex;
+    height: 4.03rem;
+    align-items: center;
+    
+}
+#pho img{
+    height:2.34rem;
+    width: 2.34rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+}
+#pho1{
+    height:3.9rem;
+    width: 3.9rem;
+    border: 1px solid #5584e7;
+    border-radius: 50%;
+    margin: 0 0.5rem 0 0.2rem;
+}
+#pho2{
+    height:3.1rem;
+    width:3.1rem;
+    border: 1px solid #6691e9;
+    border-radius: 50%;
+    margin: 0.35rem 0 0 0.35rem;
+}
+#pho3{
+    height:2.74rem;
+    width: 2.74rem;
+    border: 1px solid #8babee;
+    border-radius: 50%;
+    margin: 0.13rem 0 0 0.13rem;
+}
+#dl{
+    width: 3.55rem;
+    height: 1.24rem;
+    font-size: 0.7rem;
+    line-height: 1.24rem;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    margin-bottom: 0.3rem;
+}
+#more{
+    font-size: 0.3rem;
+    color: #ffffff;
+}
+#surplus{
+    display: flex;
+    height: 2rem;
+    font-size: 0.5rem;
+    color: #ffffff;
+}
+#surplus li{
+    width: 25%;
+    text-align: center;
+    margin-top:0.4rem;
+}
+#surplus span{
+    margin: 0 0.3rem 0 0;
+}
